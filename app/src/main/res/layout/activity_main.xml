@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/mineCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mine Count: 0"
+        android:layout_gravity="center"
+        android:textSize="0sp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="404dp"
+        android:layout_height="387dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout style="@style/row">
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a1"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a2"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a3"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a4"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/a5"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout style="@style/row">
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout style="@style/row">
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c1"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c2"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c3"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c4"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c5"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout style="@style/row">
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/d1"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/d2"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/d3"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/d4"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/d5"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+        <LinearLayout style="@style/row">
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/e1"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/e2"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/e3"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/e4"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/e5"
+                style="@style/column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp" />
+
+            <View style="@style/verticalLine" />
+        </LinearLayout>
+
+        <View style="@style/horizontalLine" />
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_purple"
+        android:text="Toggle"
+        android:textColor="@android:color/white"
+        android:textOff="Place a Flag"
+        android:textOn="Try a Field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
